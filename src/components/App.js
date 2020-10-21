@@ -10,7 +10,7 @@ function App() {
     <div id="main"> 
       // Do not alter the main div
       <button id="click" onClick={handelClick}>
-        (view === true) ? <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>: null;
+        (view === true) ? <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>: {null};
       </button>
     </div>
   );
